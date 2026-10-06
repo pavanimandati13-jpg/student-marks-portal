@@ -4,9 +4,8 @@ A React.js application that demonstrates **Props** and the **useState Hook** thr
 
 ## 🔗 Project Links
 
-🌐 **Live Demo:**  
-[View Student Marks Live](YOUR-LIVE-GITHUB-PAGES-LINK)
-
+live link:
+https://pavanimandati13-jpg.github.io/student-marks-portal/
 💻 **GitHub Repository:**  
 [View Source Code on GitHub](YOUR-GITHUB-REPOSITORY-LINK)
 
