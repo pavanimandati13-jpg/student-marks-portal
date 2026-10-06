@@ -10,7 +10,7 @@ https://pavanimandati13-jpg.github.io/student-marks-portal/
 
 💻 **GitHub Repository:**  
 
-[View Source Code on GitHub](YOUR-GITHUB-REPOSITORY-LINK)
+https://github.com/pavanimandati13-jpg/student-marks-portal/
 
 ---
 
