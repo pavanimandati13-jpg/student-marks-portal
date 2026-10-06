@@ -1,40 +1,49 @@
 # Student Marks
 
-A simple React.js application developed to demonstrate the use of **Props** and the **useState Hook** for managing and displaying student marks dynamically.
+A React.js application that demonstrates **Props** and the **useState Hook** through an interactive student marks management interface.
 
-## Project Overview
+## 🔗 Project Links
 
-The Student Marks application allows student information and subject details to be passed using React Props, while the marks are managed using the React `useState` Hook.
+🌐 **Live Demo:**  
+[View Student Marks Live](YOUR-LIVE-GITHUB-PAGES-LINK)
 
-The application provides buttons to increase and decrease the student's marks dynamically.
-
-This project was developed as a React hands-on exercise to understand basic state management and data passing between components.
-
----
-
-## Features
-
-- Displays student name
-- Displays subject name
-- Displays student marks
-- Uses React Props to pass student information
-- Uses `useState` to manage marks
-- Increase marks functionality
-- Decrease marks functionality
-- Dynamic UI updates
-- Simple and beginner-friendly interface
+💻 **GitHub Repository:**  
+[View Source Code on GitHub](YOUR-GITHUB-REPOSITORY-LINK)
 
 ---
 
-## Technologies Used
+## 📌 Project Overview
+
+The Student Marks application is a beginner-friendly React project developed to understand how **Props** and the **useState Hook** work together.
+
+The application displays student information such as the student's name and subject, while marks are managed dynamically using React state.
+
+Users can increase or decrease the marks using interactive buttons.
+
+---
+
+## ✨ Features
+
+- 👨‍🎓 Displays student name
+- 📚 Displays subject
+- 📊 Displays student marks
+- 🔄 Increase marks
+- 🔽 Decrease marks
+- ⚛️ Uses React Props
+- 🪝 Uses the `useState` Hook
+- 🖱️ Handles button click events
+- 🔄 Updates the interface dynamically
+
+---
+
+## 🛠️ Technologies Used
 
 | Technology | Purpose |
-|------------|---------|
+|---|---|
 | React.js | Frontend development |
 | Vite | Development and build tool |
 | JavaScript | Application logic |
-| JSX | UI structure |
-| HTML5 | Page structure |
+| JSX | UI development |
 | CSS3 | Styling |
 | Git | Version control |
 | GitHub | Source code management |
@@ -42,27 +51,14 @@ This project was developed as a React hands-on exercise to understand basic stat
 
 ---
 
-## React Concepts Used
+## ⚛️ React Concepts Demonstrated
 
-This project demonstrates the following React concepts:
+### Props
 
-- Functional Components
-- JSX
-- Props
-- `useState` Hook
-- Event Handling
-- Component Reusability
-- Dynamic Rendering
+Props are used to pass student information from the parent component to the child component.
 
----
-
-## Application Functionality
-
-The application displays a student's name, subject, and marks.
-
-Example:
-
-```text
-Student Name: Rahul
-Subject: Java
-Marks: 50
+```jsx
+<Student
+  name="Rahul"
+  subject="Java"
+/>
