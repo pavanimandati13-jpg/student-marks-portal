@@ -1,18 +1,68 @@
-#live link:
-https://pavanimandati13-jpg.github.io/student-marks-portal/
-# React + Vite
+# Student Marks
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple React.js application developed to demonstrate the use of **Props** and the **useState Hook** for managing and displaying student marks dynamically.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Student Marks application allows student information and subject details to be passed using React Props, while the marks are managed using the React `useState` Hook.
 
-## React Compiler
+The application provides buttons to increase and decrease the student's marks dynamically.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was developed as a React hands-on exercise to understand basic state management and data passing between components.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Features
+
+- Displays student name
+- Displays subject name
+- Displays student marks
+- Uses React Props to pass student information
+- Uses `useState` to manage marks
+- Increase marks functionality
+- Decrease marks functionality
+- Dynamic UI updates
+- Simple and beginner-friendly interface
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend development |
+| Vite | Development and build tool |
+| JavaScript | Application logic |
+| JSX | UI structure |
+| HTML5 | Page structure |
+| CSS3 | Styling |
+| Git | Version control |
+| GitHub | Source code management |
+| GitHub Pages | Deployment |
+
+---
+
+## React Concepts Used
+
+This project demonstrates the following React concepts:
+
+- Functional Components
+- JSX
+- Props
+- `useState` Hook
+- Event Handling
+- Component Reusability
+- Dynamic Rendering
+
+---
+
+## Application Functionality
+
+The application displays a student's name, subject, and marks.
+
+Example:
+
+```text
+Student Name: Rahul
+Subject: Java
+Marks: 50
